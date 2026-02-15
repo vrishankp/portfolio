@@ -6,7 +6,6 @@ export const projects: Project[] = [
     title: 'Poker Bot',
     description: 'An application of advanced hand ranking algorithms to accurately calculate odds of each player winning and predict the best move',
     imageUrl: '/images/poker.jpg',
-    imageAiHint: 'stock market graph',
     technologies: ['Java', 'Git'],
     githubUrl: 'https://github.com/vrishankp/Texas-Holdem',
   },
@@ -14,7 +13,6 @@ export const projects: Project[] = [
     title: 'Monopoly Simulator',
     description: 'A simulation of the game Monopoly to determine which positions and properties are most valuable (hint: it\'s orange)',
     imageUrl: '/images/monopoly.jpg',
-    imageAiHint: 'virtual reality finance',
     technologies: ['Python', 'MatPlotLib'],
     githubUrl: 'https://github.com/vrishankp/Monopoly/',
   },
@@ -22,9 +20,8 @@ export const projects: Project[] = [
     title: 'Portfolio Website (This!)',
     description: 'Redesigned personal portfolio built with Next.js, TypeScript, and Tailwind CSS, featuring a modern design and smooth animations.',
     imageUrl: '/images/web.jpg',
-    imageAiHint: 'modern website design',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React'],
-    githubUrl: 'https://github.com/vrishank/websiteV2',
+    githubUrl: 'https://github.com/vrishankp/portfolio',
   },
 ];
 
@@ -34,7 +31,7 @@ export const skillsCategorized: SkillCategory[] = [
     icon: Code,
     skills: [
       { name: 'Python' }, { name: 'Java' }, { name: 'SQL' },
-      { name: 'PHP' }, { name: 'TypeScript' },{ name: 'HTML' }, { name: 'CSS' }
+      { name: 'PHP' }, { name: 'TypeScript' },{ name: 'HTML' }, { name: 'CSS' }, { name: 'C#' }
     ],
   },
   {
@@ -43,7 +40,7 @@ export const skillsCategorized: SkillCategory[] = [
     skills: [
       { name: 'React' }, { name: 'Selenium' },
       { name: 'Flask' }, { name: 'Next.js' },
-      { name: 'Tailwind CSS' }, { name: 'Pandas' }, { name: 'NumPy' }
+      { name: 'Tailwind CSS' }, { name: 'Pandas' }, { name: '.NET' }
     ],
   },
   {
@@ -85,10 +82,11 @@ export const experiences: Experience[] = [
     ],
   },
   {
-    role: 'Automation Engineer',
+    role: 'SDET',
     company: 'Safety National',
     duration: 'June 2025 - Present',
     responsibilities: [
+        "Developing a state of the art Software Regression Testing Framework in C# and .NET" ,
     ],
   },
 ];

@@ -1,15 +1,16 @@
 import Image from 'next/image';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import {FadeInUp} from '@/components/animations/fade-in-up';
-import { School, Palette, Camera } from 'lucide-react';
+import { School, Palette, Camera, Book } from 'lucide-react';
 
 interface AboutSectionProps {
   id: string;
 }
 
 const interests = [
-  { name: "Web Development", icon: <Palette className="h-6 w-6 text-primary" />, description: "Crafting responsive and engaging user experiences on the web." },
+  { name: "Full-Stack Development", icon: <Palette className="h-6 w-6 text-primary" />, description: "Crafting responsive and engaging user experiences" },
   { name: "Analog Photography", icon: <Camera className="h-6 w-6 text-primary" />, description: "Taking film photographs with dream like aesthetics" },
+  { name: "Reading", icon: <Book className="h-6 w-6 text-primary" />, description: "Reading from a variety of genres, from mystery to non-fiction"}
 ];
 
 export function AboutSection({ id }: AboutSectionProps) {
